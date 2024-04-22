@@ -1,0 +1,17 @@
+
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="SmokeTest"/>
+		</run>
+	</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+
+      <class name="com.actitime.testscript.CustomerModule"/>
+       <methods>
+		   <include name="deleteCustomer"/>
+	   </methods>
+    </classes>
+  </test> 
+</suite> 
